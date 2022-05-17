@@ -1,0 +1,11 @@
+Test Town
+8 4
+0001020304050607
+08090A0B0C0D0E0F
+1011121314151617
+18191A1B1C1D1E1F
+1 1 Creature :t256
+1 3 Lever 2 2 Test Town
+4 2 Item Helmet:c2
+6 1 Scenery Tree:
+
