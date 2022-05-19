@@ -1,3 +1,4 @@
+package rpg;
 import java.util.ArrayList;
 import java.io.FileWriter;
 import java.io.BufferedReader;
