@@ -53,16 +53,25 @@ public class ItemContainer {
      * Remove the requested number of items with the given name from this
      * container.
      * 
-     * If the count requested is more than the number in the
-     * container, a new Item object will be created and returned, and the
-     * container will still have some left in it. (You can create a new
-     * item that is the duplicate of another with new Item(item))
+     * If the count is greater than the number of that item present,
+     * nothing is removed and null is returned.
      * 
      * If the count is equal to the number of that item present, or if the
-     * count is -1, all the items of that name are returned.
+     * count is -1, the item is removed from the container and an Item of 
+     * the same type and count is returned
      * 
-     * Otherwise, if count is greater than the number of that item present,
-     * nothing is removed and null is returned.
+     * If the count requested is less than the number in the container, 
+     * two things will happen. You will lower the count of items in the container 
+     * and you will return a new Item that reflects the amount removed. 
+     * (You can create a new item that is the duplicate of another with new Item(item))
+     * 
+     * Let's assume I start with 3 swords in a container.
+     * Example outcomes from 3 separate possible behaviors:
+     * If I ask for 4 swords, code returns null
+     * 
+     * If I ask for 3 swords (or -1 swords), the item is removed from the container and returned to the user
+     * 
+     * If I ask for 2 swords, I lower the count of swords in the container to 1 and return a new Sword item with a count of 2
      * 
      * @param name Name of item to remove
      * @param count Number of that item to remove, or -1 to remove all
