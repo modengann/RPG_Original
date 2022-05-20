@@ -131,7 +131,7 @@ public class Level extends Object {
      * @param template template to match to
      * @return An <code>ArrayList</code> of all matching scripts.
      */
-    public ArrayList getScripts(Script template) {
+    public ArrayList<Script> getScripts(Script template) {
         return null;
     }
     
