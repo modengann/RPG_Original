@@ -1,5 +1,8 @@
 package rpg;
 import java.util.ArrayList;
+
+import org.junit.Test;
+
 import java.io.FileWriter;
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -22,6 +25,7 @@ public class TestCases extends junit.framework.TestCase {
      * as described on the website. It will also check to make sure that the 
      * constructor, getters, and setters are working properly.
      */
+    @Test
     public void testMatching() {
         Script fixedLocation = new Script(2, 3, "A", "B");
         Script differentObjects = new Script(2, 3, new String("A"), new String("B"));
@@ -88,6 +92,7 @@ public class TestCases extends junit.framework.TestCase {
      * This test is specifically for the "radius" extension in part 1. It will
      * verify that nearby scripts with nonzero radii can in fact overlap.
      */
+    @Test
     public void testRadius() {
         Script zero = new Script(2, 2, null, null);
         Script one = new Script(2, 3, null, null);
@@ -130,6 +135,7 @@ public class TestCases extends junit.framework.TestCase {
      * 
      * This test depends on being able to do the basic search for the first match to a script.
      */
+    @Test
     public void testAddAndRemove() {
         Level level1 = new Level(), level2 = new Level();
         Script a = new Script(1, 2, null, null);
@@ -176,6 +182,7 @@ public class TestCases extends junit.framework.TestCase {
      * Test that scripts can be added to a level and that the three searching methods can be used to
      * locate scripts within that level.
      */
+    @Test
     public void testSearching() {
         Script a = new Script(1, 1, null, null);
         Script b = new Script(1, 2, null, null);
@@ -209,7 +216,7 @@ public class TestCases extends junit.framework.TestCase {
         assertTrue("The getScript(n, script) method should return null if the index is negative.", level.getScript(-1, a) == null);
         assertTrue("The getScript(n, script) method should return null if the script is not present.", level.getScript(0, n) == null);
     }
-    
+    @Test
     public void testItemContainer() {
         ItemContainer container = new ItemContainer();
         Item swords = new Item(new Script(0, 0, "Item", "Sword:c3"));
@@ -264,7 +271,7 @@ public class TestCases extends junit.framework.TestCase {
     }
     
 /* * * * * Beginning of part 3 * * * * */
-
+    //Support method
     private String hexByte(int b) {
         String hex = Integer.toHexString(b).toUpperCase();
         if(hex.length() == 1) {
@@ -273,7 +280,7 @@ public class TestCases extends junit.framework.TestCase {
             return hex;
         }
     }
-
+    //Support method
     private void checkTiles(String time, Level level, int[] expected) {
         for(int i = 0; i < 32; i++) {
             Tile tile = level.getTile(i % 8, i / 8);
@@ -288,6 +295,7 @@ public class TestCases extends junit.framework.TestCase {
      * information from a file; getTile(), which retrieves the Tile at a given location, and setTile(),
      * which replaces the tile at a given location. This is the test for the first section of part 3.
      */
+    @Test
     public void testTiles() {
         Level level = Level.testLoadTiles();
         assertTrue("The test level does not appear to have loaded. Make sure that \"test.txt\" is in your RPG directory, and check the terminal for errors that might have occurred in your constructor.", level != null);
@@ -329,6 +337,7 @@ public class TestCases extends junit.framework.TestCase {
      * or Scenery, this method is supposed to use the script it has created to construct an object
      * of one of those classes, and return that object instead.
      */
+    @Test
     public void testCreateScript() {
         Script script = Script.createScript("1 3 Lever 2 2 Test Town");
         String explanation = "I created a script \"1 3 Lever 2 2 Test Town\", but ";
@@ -385,6 +394,7 @@ public class TestCases extends junit.framework.TestCase {
      * the Level() constructor that takes a BufferedReader, and will ask it to load a test level, complete
      * with terrain and scripts. Then, it will check that all that information was loaded correctly.
      */
+    @Test
     public void testLoading() {
         Level level = Level.testLoadFullLevel();
         
@@ -449,7 +459,7 @@ public class TestCases extends junit.framework.TestCase {
         assertTrue(explanation + "The script there has the wrong level: " + script.getLevel(),
                 script.getLevel() == level);
     }
-    
+    @Test
     public void testSaving() {
         Level level = Level.testLoadFullLevel();
         try {
