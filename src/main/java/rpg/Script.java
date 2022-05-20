@@ -9,7 +9,7 @@ package rpg;
  * @version (date)
  */
 public class Script {
-/* * * * * You may need to add to or change this code in doing the later parts * * * * */
+/* * * * * You may need to add to or change variables in order to do later parts * * * * */
 
     private int x, y;
     private String action, argument;
