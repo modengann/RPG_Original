@@ -1,0 +1,364 @@
+3 2 First Town
+
+First Town
+24 24
+1818000019000000303120302D2C3121302D312020000000
+0B6161757661615B1BD4DED9D42FDFDFDFDFDBD31B526200
+0B736F616161615F1FDEDFD9D21ADFDFDBD3D1D41A525200
+000101010061616123DFDBD1D421DFDFD9D4D8D61B526400
+05BDB8B004736F5D1FDFD9D0D21A2320201B201B21525200
+06BFBDB80875765B1BD3D5D8D423DBD31B5E5A5252525200
+05BFBFBD0061615F21D4DEDDDE21D9D423675F5E5A525200
+0000080000616765201B211B20201B23215559615F5A5200
+00DDD8D0036761675F5A52565E5A58615B525861675B5200
+00F4D9D00067736F675F5E60675F605D535660675D536300
+00FCD9D00373696E777777666161775B5258675D53525200
+0000000000757476675D555559665D535254555352526200
+00525252586166615D535262545553525262525263526300
+0064201B211B251B211B216252180000000000000B0B0000
+005220C0C0C0C0C0C4CC2152521952525252645252526252
+00521BC0C0C0C0C0C6CF1B5252005252526252565E5A6452
+00521AC4CCC8C0C4CECB20526200525263526258615B6452
+00521BCECFCDCCCECFCD1B525200636463526258665F5A64
+005221CFCFCFCFCBC7CF2652640052526362525861615B52
+0052211B1A1B201B201B1A52520052525252645459615B52
+005252525263526364625264520052525252525258615F5A
+00635262526362525252525252005252526352525861615F
+006352625262625252525264520063526252646254596177
+000000000000000000000000000063526252525252586177
+2 9 Scenery :t332
+2 10 Scenery :t330
+1 10 Scenery :t326
+1 10 Item :t265
+1 10 Item :t303
+1 10 Item :t309
+1 4 Creature :t262C0
+2 4 Creature :t262C2
+3 4 Creature :t262C1
+2 10 Creature :t262C6
+9 17 Scenery :t332
+8 17 Scenery :t332
+9 18 Scenery :t326
+9 18 Item :t314c40
+3 15 Scenery :t332
+3 18 Scenery :t332
+8 14 Scenery :t332
+9 14 Scenery :t332
+3 14 Scenery :t328
+4 15 Scenery :t331
+4 18 Scenery :t331
+3 17 Scenery :t328
+9 15 Scenery :t330
+8 15 Scenery :t330
+9 16 Scenery :t328
+8 16 Scenery :t328
+3 14 Creature :t261C3
+9 2 Scenery :t332
+11 2 Scenery :t332
+9 6 Scenery :t332
+10 6 Scenery :t332
+11 6 Scenery :t332
+19 3 Scenery :t332
+18 3 Scenery :t332
+17 3 Scenery :t332
+16 3 Scenery :t332
+14 1 Scenery :t332
+22 12 Creature :t262C5
+19 12 Creature :t262C4
+3 20 Scenery :t380
+6 22 Scenery :t380
+9 20 Scenery :t379
+4 21 Scenery :t379
+10 22 Scenery :t378
+9 22 Scenery :t404
+8 20 Scenery :t404
+1 22 Scenery :t381
+7 22 Scenery :t330
+8 22 Scenery :t330
+15 12 Scenery :t346
+10 12 Scenery :t347
+10 8 Scenery :t347
+22 9 Scenery :t348
+22 4 Scenery :t376
+22 1 Scenery :t377
+22 2 Scenery :t400
+21 1 Scenery :t401
+18 20 Scenery :t385
+18 16 Scenery :t383
+15 15 Scenery :t385
+17 17 Scenery :t384
+14 19 Scenery :t384
+16 17 Scenery :t359
+14 16 Scenery :t359
+17 14 Scenery :t360
+15 20 Scenery :t361
+17 20 Scenery :t361
+14 15 Scenery :t377
+14 18 Scenery :t400
+17 18 Scenery :t400
+16 20 Scenery :t357
+15 21 Scenery :t354
+18 19 Scenery :t360
+18 18 Scenery :t359
+14 21 Scenery :t352
+16 19 Scenery :t326
+16 19 Item :t299
+16 19 Item :t314c60
+8 18 Creature :t261C7
+-2 0 ThoughtBubble Zzzzz...
+-2 1 SpeechBubble Welcome to our town!
+-2 2 SpeechBubble Our commander, in the room to the south, may have a job for you.
+-2 3 SpeechBubble Did you know that there are orcs in the forest to the east?
+-2 4 SpeechBubble It's dangerous out there.
+-2 5 SpeechBubble Be sure to buy some weapons and armor before you go.
+-2 6 Conversation <node name="Root">Commander Malden is in change of defending this town against the orc threat. From what you've heard, he hasn't done a very good job - there are more orcs around every day, and most of the town's citizens have fled.<br/><br/>When he sees you, he leaps to his feet and rushes forward to shake your hand. "I've heard all about you!" he exclaims. "You're the adventurer that killed the dragon that was attacking the castle!"<option link="lie">Uh, yeah, that's me. Big dragon, he was, but I chased him back to his lair, snuck in, and finished him off.</option><option link="truth">I'm afraid you're thinking of the wrong adventurer. Me, I just got bored one day and decided to head out and seek my fortune.</option></node><node name="lie">"Well then, I can't imagine our orcs here will be any trouble for you. Once you've wiped them all out, let me buy you a beer in the inn and you can tell me all about your other adventures."<option link="stuff">Well, yes, I am a fearsome adventurer after all. But all my equipment got eaten up by the dragon - do you have anything I could borrow?</option></node><node name="truth">He tries to conceal his disappointment, but it's clear he doesn't think much of your chances now that he realizes how inexperienced you are.<br/><br/>"Well, in that case, you'll need some equipment," he says. "Feel free to help yourself to what's in the chest there."</node><node name="stuff">"We have a few supplies left, in that chest there, but I'm sure you're used to having much better equipment. You can buy some in the stores to the east. But... don't expect me to reimburse you for the expense."</node>
+-2 7 Conversation <node name="root">The innkeeper is polishing some cups and looking out across the mostly-empty room with a dour expression on his face. You imagine that the orcs must be terrible for business.<br/><br/>When he sees you come in, he says, "Well what'll it be? I have some good beer for just two gold. Or, if you are tired from all your traveling, I have some clean, warm rooms upstairs where you can rest for the night, for just 10 gold."<option link="inn">I'll take a room, please. (pay 10 gold)</option><option link="beer">I'd like a beer. (pay 2 gold)</option></node><node name="inn" type="inn" take="Gold:10">There are six rooms upstairs, all of them vacant. Clearly, this inn used to do much better business when it was on a bustling trade route instead of a combat zone. You fall asleep quickly and awake the next morning healed and refreshed.</node><node name="beer" take="Gold:2">The beer is watery, but palatable. The innkeeper, gratified at having a paying customer after so long, sits down and chats with you as you drink. "I suppose, as an adventurer, you're always on the lookout for treasure, right?" he asks. "If you're headed over to the woods to the west, look out for hidden treasure chests among the trees."</node>
+-2 8 Conversation <node name="root">This store sells weapons. The shopkeeper also offers to buy any old equipment that you no longer have a use for.<option link="Buy">I would like to buy a weapon.</option><option link="Sell">I have some old equipment that I would like to sell.</option></node><node name="buy" type="Buy" multiplier="1">You look through the weapons being sold at this store. Remember that if you buy a weapon, you have to equip it (press "m" to access the menu) in order to start using it.</node><node name="sell" type="Sell" multiplier=".5">The storekeeper offers reasonable prices for your old equipment.</node>
+-2 9 Conversation <node name="root">This store sells armor. The shopkeeper also offers to buy any old equipment that you no longer have a use for.<option link="Buy">I would like to buy some armor.</option><option link="Sell">I have some old equipment that I would like to sell.</option></node><node name="buy" type="Buy" multiplier="1">You look through the armor being sold at this store. Remember that if you buy armor, you have to equip it (press "m" to access the menu) in order to start using it.</node><node name="sell" type="Sell" multiplier=".5">The storekeeper offers reasonable prices for your old equipment.</node>
+11 3 Creature :t261C8
+11 3 Item :t265c-1
+11 3 Item :t266c-1
+11 3 Item :t269c-1
+11 3 Item :t270c-1
+11 3 Item :t284c-1
+11 3 Item :t286c-1
+18 2 Creature :t261C9
+18 2 Item :t299c-1
+18 2 Item :t300c-1
+18 2 Item :t302c-1
+18 2 Item :t303c-1
+18 2 Item :t304c-1
+18 2 Item :t305c-1
+18 2 Item :t306c-1
+18 2 Item :t307c-1
+18 2 Item :t308c-1
+23 23 Creature :t258
+21 22 Creature :t257
+20 21 Creature :t257
+22 20 Creature :t257
+19 19 Field 407
+22 17 Field 408
+21 16 Field 406
+23 22 Exit Orc Castle:Path
+23 23 Exit Orc Castle:Path
+22 23 Exit Orc Castle:Path
+22 22 Entry Path
+13 10 Creature :t262C10
+-2 10 SpeechBubble Remember, in order to use weapons and armor, you must "equip" them. Press "m" to access the menu, then equip items from the Inventory or Equip submenus.
+3 2 Creature :t256m6M6g50
+3 2 Item :t263
+-2 11 SignBubble Barracks
+4 4 Sign 11
+
+
+Orc Castle
+32 32
+61615B62636300000400000000000000000000000000000000000000000F0000
+61615F5E5A5201BBB7BFB900C2C5C800BFBFBFBFBF00BFBFBFBFBF00BFBFBF00
+616177675F5A01B1B2B3B509C0C2C100BFBFBFBFBF00BFBFBFBFBF00BFBFBF00
+55596161655F050001010000C4CCC80000000900000000000900000000090000
+64586661736B0AD3D7DBD10AC2C7C909B4BCBCB8B4B8B0B2B5B8B0B4BCB8B600
+5254596171680AD0D2D1D00AC4CAC109BEBFBBB5BEBDBCBCBEBDBCBEBFBDBA00
+000101050B0B050000000000C6C9C40000000000090900000000000900000000
+00BBB500DBD100C0C4CCC8C0C6C9C200C4CCC8C0C0C0C0C000BFBFBFBFBFBF00
+00B1B601DDD800C4CAC3C5CCCAC5C800C6CFCDCCCCCCC8C000BFBFBFBFBFBF00
+00B4BE01DBD100C2C1C4CECBC5CAC100C2C7CBC7CFCBC5C80000000000000000
+00B2B700D1D000C0C0C2C3C1C2C1C000C0C2C5CAC7C9C6CD09BFBFBFBFBFBF00
+000009000B0B0000090000000009000000C0C2C5CAC1C6CF000000000000BF00
+635252526452525252646200BFBFBBB700C0C4CAC5C8C6CB00BFBFBFBFBFBF00
+525252526363525252635209BFBBB1B600C4CEC9C6CDCAC500BF000000000000
+645262525252525264525200B3B1B4BE00C6CFCDCECFCDCE00BFBFBFBFBF0400
+6352525252525252526464000000000000000100010001000000000001010000
+525252636452525262645201BBB3B3B3B3B5B8B0B4B8B0B4B8B4BCB8B4B8B600
+3F4B4C4D434B4C4D3F645201B1B0B0B0B4BEBDBCBEBDBCBEBDBEBFBDBEBDBA00
+3AD0D0D0D0D0D0D041525200090900000000010001000100000000000A0A0000
+3FD0D0D0D0D0D0D04A525200DAD3D3D3D3D7F1DBD3D7DBD3D7DB00C0C0C0C000
+41D0D0D0D0D0D0D041525209D9D0D0D4DCDEDBD5D8D6DDD8D6D900C0C0C0C000
+3AD0D0D0D0D0D0D04A645209D9D4DCDEDBD3D5DED9D2D3D1D2D100C0C0C0C000
+3FD0D0D0D0D0D0D03F525200D9D2D3D3D1D0D2D3D1000000090000C0C0C0C000
+3F3B463D41403A3C4152520009090000000000090900BFB9B0B000C0C0C0C000
+41DFDFDF3F52625252636300B5BC19BFBFBF00BFBF0004BDBCBC00C0C0C0C000
+3FDFDFDF3F52525252645201B2B709BFBFBF09BFBF0000010100000303030300
+3F3B3B3B3B52626352525201B4BE00BFBFBF00BFBF0062645252625252525252
+645263626252525252645200B2B70000000000BFBF0164525262525252526252
+180C01010119181800010000090900BFBFBF00BFBF0A52526252525264525252
+0EB4BAB1B4BAB709BBB3B3B7BBB109BFBFBF09BFBF0152625264526452525252
+0EB2B5BCBAB1B609B5BCBCBAB5BC00BFBFBF00BFBF0052525252625252525264
+1800190018181900180000000000000000000000000052635263525252525264
+8 0 Lever 6 4
+8 0 Lever 6 5
+8 0 Lever 11 4
+8 0 Lever 11 5
+14 2 Scenery :t332
+8 8 Scenery :t332
+9 8 Scenery :t332
+11 9 Scenery :t332
+12 9 Scenery :t332
+13 9 Scenery :t332
+14 9 Scenery :t332
+14 6 Scenery :t332
+14 3 Scenery :t330
+14 1 Scenery :t328
+14 5 Scenery :t328
+14 8 Scenery :t328
+13 8 Scenery :t328
+12 8 Scenery :t328
+11 8 Scenery :t328
+14 10 Scenery :t330
+13 10 Scenery :t330
+12 10 Scenery :t330
+11 10 Scenery :t330
+3 25 Scenery :t326
+3 25 Item :t300
+3 25 Item :t315c20
+2 25 Scenery :t326
+2 25 Item :t315
+1 25 Scenery :t326
+1 25 Item :t314
+13 30 Scenery :t332
+12 30 Scenery :t332
+4 30 Scenery :t332
+17 24 Scenery :t332
+16 24 Scenery :t332
+15 24 Scenery :t332
+15 30 Scenery :t332
+16 30 Scenery :t332
+17 30 Scenery :t332
+22 24 Lever 21 28
+15 20 Scenery :t332
+16 20 Scenery :t332
+17 20 Scenery :t332
+15 21 Scenery :t332
+16 21 Scenery :t332
+17 21 Scenery :t332
+16 1 Scenery :t326
+16 1 Item :t314
+17 1 Scenery :t326
+17 1 Item :t315c30
+20 1 Scenery :t326
+20 1 Item :t315
+22 1 Scenery :t332
+23 1 Scenery :t332
+24 1 Scenery :t332
+25 1 Scenery :t332
+26 1 Scenery :t332
+26 8 Scenery :t332
+27 8 Scenery :t332
+28 8 Scenery :t332
+29 8 Scenery :t332
+30 8 Scenery :t332
+30 7 Scenery :t326
+30 7 Item :t270
+25 8 Scenery :t326
+25 8 Item :t314
+15 14 Scenery :t326
+15 14 Item :t315
+30 30 Scenery :t326
+30 30 Item :t313
+30 30 Item :t314c90
+29 30 Scenery :t326
+29 30 Item :t312
+29 30 Item :t314c100
+28 30 Scenery :t326
+28 30 Item :t311
+28 30 Item :t314c70
+30 31 Scenery :t345
+28 31 Scenery :t343
+31 30 Scenery :t338
+30 27 Scenery :t338
+26 29 Scenery :t339
+23 31 Scenery :t339
+23 27 Scenery :t344
+25 31 Scenery :t343
+31 28 Scenery :t342
+22 30 Scenery :t341
+27 30 Scenery :t367
+29 31 Scenery :t367
+31 27 Scenery :t369
+22 31 Scenery :t368
+31 31 Scenery :t390
+0 27 Scenery :t326
+0 27 Item :t315c80
+2 27 Scenery :t380
+5 25 Scenery :t381
+10 27 Scenery :t404
+8 26 Scenery :t403
+8 15 Scenery :t380
+2 14 Scenery :t380
+7 13 Scenery :t379
+4 15 Scenery :t379
+0 16 Scenery :t379
+1 13 Scenery :t403
+7 16 Scenery :t403
+30 14 Lever 28 18
+30 14 Lever 29 18
+29 14 Creature :t259
+28 14 Creature :t259
+28 12 Creature :t259
+29 12 Creature :t258
+19 12 Creature :t258
+22 11 Creature :t258
+21 13 Creature :t258
+17 8 Creature :t257
+21 9 Creature :t257
+21 11 Creature :t257
+18 10 Creature :t257
+20 8 Creature :t257
+28 1 Creature :t258
+29 1 Creature :t258
+30 1 Creature :t258
+28 4 Creature :t257
+22 2 Creature :t257
+25 2 Creature :t257
+18 2 Creature :t257
+17 2 Creature :t258
+18 1 Creature :t258
+19 2 Creature :t258
+14 1 Creature :t257
+14 3 Creature :t257
+12 3 Creature :t257
+14 5 Creature :t257
+10 7 Creature :t257
+13 7 Creature :t257
+14 8 Creature :t257
+12 8 Creature :t257
+13 8 Creature :t257
+11 10 Creature :t257
+14 13 Creature :t257
+12 14 Creature :t257
+3 16 Creature :t257
+6 16 Creature :t257
+4 8 Creature :t257
+5 8 Creature :t257
+1 8 Creature :t257
+2 7 Creature :t257
+2 3 Creature :t257
+4 1 Creature :t257
+2 22 Creature :t258
+4 22 Creature :t258
+6 22 Creature :t258
+3 21 Creature :t257
+5 21 Creature :t257
+4 20 Creature :t257
+16 22 Creature :t257
+19 19 Creature :t257
+19 21 Creature :t257
+25 20 Creature :t257
+22 21 Creature :t257
+24 24 Creature :t259
+1 29 Creature :t259
+1 30 Creature :t259
+29 24 Creature :t260C0
+28 24 Creature :t259
+27 24 Creature :t259
+30 24 Creature :t259
+28 22 Creature :t258
+29 22 Creature :t258
+28 20 Creature :t257
+29 20 Creature :t257
+0 0 Exit First Town:Path
+0 1 Exit First Town:Path
+1 0 Exit First Town:Path
+1 1 Entry Path
+-2 0 SignPanel You have defeated the orc chief!
+

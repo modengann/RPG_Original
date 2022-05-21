@@ -1,0 +1,539 @@
+a vh stone wall
+b vh stone wall with ivy
+c vh brick wall
+d vh brick wall with moss
+e h block wall
+f h edge of block wall
+g h stucco wall with pole on right
+h h stucco wall with pole on left
+i vh green grass
+j vh yellow grass
+k vh dirt
+l vh cave floor
+m vh hardened lava
+n vh cool lava
+o vh live lava
+p vh dark wood floor
+q vh lit wood floor
+r vh dark blue tile
+s vh lit lit blue tile
+t vh dark green tile
+u vh lit lit green tile
+
+25 image files
+
+// 0
+stone.png 26
+brick.png 32
+wattle.png 24
+grass.png 24
+dirt.png 16
+// 5
+caveFloor.png 16
+coolLava.png 16
+lava.png 24
+woodFloor.png 16
+player.png 1
+// 10
+blueTile.png 16
+greenTile.png 16
+creatures.png 4
+weapons.png 24
+bowsAndArmor.png 24
+// 15
+goldAndFood.png 16
+treesNarrowBig.png 12 100 180
+treesNarrowMedium.png 12 80 140
+treesNarrowSmall.png 12 60 100
+treesWideBig.png 12 150 180
+// 20
+treesWideMedium.png 12 120 140
+treesWideSmall.png 12 90 100
+objects.png 8
+effects.png 8
+characters.png 30
+
+Begin Type:Tile
+// 0
+stone wall.aaaa.0:SOi0f0
+stone wall with window.aaaa:Si0f1
+stone wall with window (closed drapes).aaaa:SOAi0f2b+1
+stone wall with window (open drapes).aaaa:SOAi0f3b+-1
+stone wall with sign.aaaa:SOi0f4
+stone wall with swords.aaaa:SOi0f5
+stone wall with painting.aaaa:SOi0f6
+stone wall with safe.aaaa:SOi0f7
+stone wall with door (closed).aaaa:SOALi0f8b+1
+stone wall with door (open).aaaa:ALi0f9b+-1
+stone wall with portcullis (closed).aaaa:SLi0f10b+1
+stone wall with portcullis (open).aaaa:Li0f11b+-1
+stone wall with secret door (closed).aaaa:SOALi0f12b+1
+stone wall with secret door (open).aaaa:ALi0f13b+-1
+stone wall with stairs up.aaaa:Oi0f14
+stone wall with stairs down.aaaa:Oi0f15
+stone wall with moss.aaaa:SOi0f16
+stone wall with moss.aaaa:SOi0f17
+stone wall with ivy.bbbb.0:SOi0f18
+stone wall with ivy.bbbb.1:SOi0f19
+stone wall with ivy.aabb:SOi0f20
+stone wall with ivy.bbaa:SOi0f21
+stone wall with ivy.abba:SOi0f22
+stone wall with ivy.baab:SOi0f23
+stone wall.aaaa.1:SOi0f24
+stone wall.aaaa.2:SOi0f25
+// 26
+brick wall.cccc.0:SOi1f0
+brick wall with window.cccc:Si1f1
+brick wall with barred window.cccc:Si1f2
+brick wall with grating.cccc:Si1f3
+brick wall with sign.cccc:SOi1f4
+brick wall with axes.cccc:SOi1f5
+brick wall.cccc.1:SOi1f6
+brick wall.cccc.2:SOi1f7
+brick wall with door (closed).cccc:SOALi1f8b+1
+brick wall with door (open).cccc:ALi1f9b+-1
+brick wall with double door (closed).cccc:SOALi1f10b+1
+brick wall with double door (open).cccc:ALi1f11b+-1
+brick wall with secret door (closed).cccc:SOALi1f12b+1
+brick wall with secret door (open).cccc:ALi1f13b+-1
+brick wall with stairs up.cccc:Oi1f14
+brick wall with stairs down.cccc:Oi1f15
+brick wall with mossy barred window.cccc:Si1f16
+brick wall with mossy grating.cccc:Si1f17
+brick wall with moss.dddd.0:SOi1f18
+brick wall with moss.dddd.1:SOi1f19
+brick wall with moss.ccdd:SOi1f20
+brick wall with moss.ddcc:SOi1f21
+brick wall with moss.cddc:SOi1f22
+brick wall with moss.dccd:SOi1f23
+block wall.feef:SOi1f24
+block wall.eeee:SOi1f25
+block wall.effe:SOi1f26
+block wall.ffff:SOi1f27
+block wall.ffff:SOi1f28
+block wall with doorway.ffff:i1f29
+block wall with door (closed).ffff:SOALi1f30b+1
+block wall with door (open).ffff:ALi1f31b+-1
+// 58
+stucco wall.ghhg:SOi2f0
+stucco wall.hhhh:SOi2f1
+stucco wall.hggh:SOi2f2
+stucco wall.gggg:SOi2f3
+stucco wall.gggg:SOi2f4
+stucco wall.ghhg:SOi2f5
+stucco wall.hggh:SOi2f6
+stucco wall.ghhg:SOi2f7
+stucco wall with door (closed).ghhg:SOALi2f8b+1
+stucco wall with door (open).ghhg:ALi2f9b+-1
+stucco wall with door (closed).gggg:SOALi2f10b+1
+stucco wall with door (open).gggg:ALi2f11b+-1
+stucco wall with secret door (closed).hggh:SOALi2f12b+1
+stucco wall with secret door (open).hggh:ALi2f13b+-1
+stucco wall with stairs up.ghhg:Oi2f14
+stucco wall with stairs down.ghhg:Oi2f15
+stucco wall with window.ghhg:Si2f16
+stucco wall with window.hhhh:Si2f17
+stucco wall with window.hggh:Si2f18
+stucco wall with window.gggg:Si2f19
+damaged stucco wall.ghhg:SOi2f20
+damaged stucco wall.hggh:SOi2f21
+damaged stucco wall.gggg:SOi2f22
+damaged stucco wall.ghhg:SOi2f23
+// 82
+grass.iiii.0:i3f0
+grass.jiii:i3f1
+grass.ijii:i3f2
+grass.jjii:i3f3
+grass.iiji:i3f4
+grass.jiji:i3f5
+grass.ijji:i3f6
+grass.jjji:i3f7
+grass.iiij:i3f8
+grass.jiij:i3f9
+grass.ijij:i3f10
+grass.jjij:i3f11
+grass.iijj:i3f12
+grass.jijj:i3f13
+grass.ijjj:i3f14
+grass.jjjj.0:i3f15
+grass.iiii.7:i3f17
+grass.iiii.8:i3f18
+grass.iiii.9:i3f19
+grass.jjjj.7:i3f21
+grass.jjjj.8:i3f22
+grass.jjjj.9:i3f23
+// 104
+dirt.kkkk:i4f0
+dirt.jkkk:i4f1
+dirt.kjkk:i4f2
+dirt.jjkk:i4f3
+dirt.kkjk:i4f4
+dirt.jkjk:i4f5
+dirt.kjjk:i4f6
+dirt.jjjk:i4f7
+dirt.kkkj:i4f8
+dirt.jkkj:i4f9
+dirt.kjkj:i4f10
+dirt.jjkj:i4f11
+dirt.kkjj:i4f12
+dirt.jkjj:i4f13
+dirt.kjjj:i4f14
+grass.jjjj.10:i4f15
+// 120
+cave floor.mmmm:i5f0
+cave floor.lmmm:i5f1
+cave floor.mlmm:i5f2
+cave floor.llmm:i5f3
+cave floor.mmlm:i5f4
+cave floor.lmlm:i5f5
+cave floor.mllm:i5f6
+cave floor.lllm:i5f7
+cave floor.mmml:i5f8
+cave floor.lmml:i5f9
+cave floor.mlml:i5f10
+cave floor.llml:i5f11
+cave floor.mmll:i5f12
+cave floor.lmll:i5f13
+cave floor.mlll:i5f14
+cave floor.llll:i5f15
+// 136
+cool lava.nnnn:i6f0
+cool lava.mnnn:i6f1
+cool lava.nmnn:i6f2
+cool lava.mmnn:i6f3
+cool lava.nnmn:i6f4
+cool lava.mnmn:i6f5
+cool lava.nmmn:i6f6
+cool lava.mmmn:i6f7
+cool lava.nnnm:i6f8
+cool lava.mnnm:i6f9
+cool lava.nmnm:i6f10
+cool lava.mmnm:i6f11
+cool lava.nnmm:i6f12
+cool lava.mnmm:i6f13
+cool lava.nmmm:i6f14
+cave floor.mmmm:i6f15
+// 152
+active lava.oooo.0:i7f0S
+active lava.nooo:i7f1S
+active lava.onoo:i7f2S
+active lava.nnoo:i7f3S
+active lava.oono:i7f4S
+active lava.nono:i7f5S
+active lava.onno:i7f6S
+active lava.nnno:i7f7S
+active lava.ooon:i7f8S
+active lava.noon:i7f9S
+active lava.onon:i7f10S
+active lava.nnon:i7f11S
+active lava.oonn:i7f12S
+active lava.nonn:i7f13S
+active lava.onnn:i7f14S
+cool lava.nnnn.0:i7f15
+active lava.oooo.6:i7f16S
+active lava.oooo.7:i7f17S
+active lava.oooo.8:i7f18S
+active lava.oooo.9:i7f19S
+cool lava.nnnn.1:i7f20
+cool lava.nnnn.2:i7f21
+cool lava.nnnn.3:i7f22
+cool lava.nnnn.4:i7f23
+// 176
+wood floor.qqqq:i8f0
+wood floor.pqqq:i8f1
+wood floor.qpqq:i8f2
+wood floor.ppqq:i8f3
+wood floor.qqpq:i8f4
+wood floor.pqpq:i8f5
+wood floor.qppq:i8f6
+wood floor.pppq:i8f7
+wood floor.qqqp:i8f8
+wood floor.pqqp:i8f9
+wood floor.qpqp:i8f10
+wood floor.ppqp:i8f11
+wood floor.qqpp:i8f12
+wood floor.pqpp:i8f13
+wood floor.qppp:i8f14
+wood floor.pppp:i8f15
+// 192
+blue tile.ssss:i10f0
+blue tile.rsss:i10f1
+blue tile.srss:i10f2
+blue tile.rrss:i10f3
+blue tile.ssrs:i10f4
+blue tile.rsrs:i10f5
+blue tile.srrs:i10f6
+blue tile.rrrs:i10f7
+blue tile.sssr:i10f8
+blue tile.rssr:i10f9
+blue tile.srsr:i10f10
+blue tile.rrsr:i10f11
+blue tile.ssrr:i10f12
+blue tile.rsrr:i10f13
+blue tile.srrr:i10f14
+blue tile.rrrr:i10f15
+// 208
+green tile.uuuu:i11f0
+green tile.tuuu:i11f1
+green tile.utuu:i11f2
+green tile.ttuu:i11f3
+green tile.uutu:i11f4
+green tile.tutu:i11f5
+green tile.uttu:i11f6
+green tile.tttu:i11f7
+green tile.uuut:i11f8
+green tile.tuut:i11f9
+green tile.utut:i11f10
+green tile.ttut:i11f11
+green tile.uutt:i11f12
+green tile.tutt:i11f13
+green tile.uttt:i11f14
+green tile.tttt:i11f15
+// 224
+// Below are 32 placeholders
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+green tile.tttt:i11f15
+
+Begin Type:Creature
+// 256
+Player:i9f0l1h30m0s2d2j3w0a0g100e0CH30M0Fb*0
+Orc:i12f3l1h20m0H20M0s2d2j3w4a2g10e80b*0
+Orc Fighter:i12f3l2h40m0H40M0s3d3j3w4a4g20e80b*0
+Orc Warrior:i12f3l3h60m0H60M0s5d5j3w4a6g30e120b*0
+Orc Chieftain:i12f3l5h100m0H100M0s8d8j3w4a8g50e250b*0
+Shopkeeper:i12f1l1h10m0s2d2j3w4a0g-1e10H10M0Fb*0
+Guard:i12f2l1h10m0s2d2j3w4a0g50e10H10M0Fb*0
+
+Begin Type:Item
+// Weapons
+Knife:i13f0c1w2g10E0
+Hatchet:i13f1c1w3g20E0
+Dagger:i13f2c1w4g40E0
+Short Sword:i13f3c1w6g80E0
+Rapier:i13f4c1w6g150d2E0
+Scimitar:i13f5c1w10g150E0
+Longsword:i13f6c1w10g150E0
+Broadsword:i13f7c1w14g250E0
+Club:i13f8c1w2g10E0
+Hammer:i13f9c1w2g10E0
+Flail:i13f10c1w2g10E0
+Battle Hammer:i13f11c1w2g10E0
+Spiked Club:i13f12c1w2g10E0
+Mace on Chain:i13f13c1w2g10E0
+Mace:i13f14c1w2g10E0
+Pick:i13f15c1w2g10E0
+Staff:i13f16c1w2g10E0
+Pike:i13f17c1w2g10E0
+Battleaxe:i13f18c1w2g10E0
+Trident:i13f19c1w2g10E0
+Scythe:i13f20c1w2g10E0
+Spear:i13f21c1w16a2g500E0
+Lance:i13f22c1w2g10E0
+Halberd:i13f23c1w20a3g1000E0
+Stick:i14f10c1w1g0E0
+
+// Projectile weapons
+Longbow:i14f0c1g0
+Compound Bow:i14f1c1g0
+Crossbow:i14f2c1g0
+Arrows:i14f3c3g0E1
+Arrows:i14f4c3g0E1
+Bolts:i14f5c3g0E1
+Darts:i14f6c3g0E1
+Javelins:i14f7c3g0E1
+Throwing Knives:i14f8c3g0E1
+Throwing Axes:i14f9c2g0E1
+Rocks:i14f11c4g0E1
+
+// Armor
+Helmet:i14f12c1a2g40E4
+Large Helmet:i14f13c1a3g80E4
+Gloves:i14f14c1a1g10E5
+Gauntlets:i14f15c1a3g80E5
+Leather Armor:i14f16c1a2g20E3
+Chain Mail:i14f17c1a4g60E3
+Plate Mail:i14f18c1a8g250E3
+Small Shield:i14f19c1a2g30E2
+Shield:i14f20c1a3g80E2
+Large Shield:i14f21c1a5g240E2
+Shoes:i14f22c1a1g10E6
+Boots:i14f23c1a2g30E6
+
+// Loot
+Saphire:i15f1c1g100c1
+Emerald:i15f2c1g200c1
+Ruby:i15f0c1g300c1
+Gold:i15f3c20c1
+Gold:i15f4c10c1
+Bronze Bar:i15f6g50c1
+Silver Bar:i15f7g100c1
+Gold Bar:i15f5g150c1
+Necklace:i15f8g50E7c1
+Silver Necklace:i15f11g100E7c1
+Gold Necklace:i15f10g150E7c1
+Ring:i15f12g50E7c1
+Saphire Ring:i15f14g50E7c1
+Emerald Ring:i15f15g50E7c1
+Ruby Ring:i15f13g50E7c1
+
+Begin Type:Scenery
+Chest (closed):CALSi22f0b+1
+Chest (open):CALSTi22f1b+-1
+Chair:i22f2
+Chair:i22f3
+Chair:i22f4
+Chair:i22f5
+Table:Si22f6
+Stone:Si22f7
+
+Begin Type:Scenery (Big Trees)
+Aspen:Si16f0
+Aspen:Si16f1
+Aspen:Si16f2
+Aspen:Si16f3
+Cedar:Si16f4
+Cedar:Si16f5
+Spruce:Si16f6
+Spruce:Si16f7
+Spruce:Si16f8
+White Pine:Si16f9
+White Pine:Si16f10
+White Pine:Si16f11
+
+Maple:Si19f0
+Maple:Si19f1
+Maple:Si19f2
+Willow:Si19f3
+Willow:Si19f4
+Willow:Si19f5
+Gingko:Si19f6
+Gingko:Si19f7
+Gingko:Si19f8
+Purple Beech:Si19f9
+Purple Beech:Si19f10
+Purple Beech:Si19f11
+
+Begin Type:Scenery (Trees)
+Aspen:Si17f0
+Aspen:Si17f1
+Aspen:Si17f2
+Aspen:Si17f3
+Cedar:Si17f4
+Cedar:Si17f5
+Spruce:Si17f6
+Spruce:Si17f7
+Spruce:Si17f8
+White Pine:Si17f9
+White Pine:Si17f10
+White Pine:Si17f11
+
+Maple:Si20f0
+Maple:Si20f1
+Willow:Si20f2
+Willow:Si20f3
+Gingko:Si20f4
+Gingko:Si20f5
+Purple beech:Si20f6
+Purple beech:Si20f7
+Dogwood:Si20f8
+Dogwood:Si20f9
+Dogwood:Si20f10
+Dogwood:Si20f11
+
+Aspen:Si18f0
+Aspen:Si18f1
+Aspen:Si18f2
+Aspen:Si18f3
+Cedar:Si18f4
+Cedar:Si18f5
+Spruce:Si18f6
+Spruce:Si18f7
+Spruce:Si18f8
+White Pine:Si18f9
+White Pine:Si18f10
+White Pine:Si18f11
+
+Maple:Si21f0
+Maple:Si21f1
+Willow:Si21f2
+Willow:Si21f3
+Gingko:Si21f4
+Gingko:Si21f5
+Purple beech:Si21f6
+Purple beech:Si21f7
+Dogwood:Si21f8
+Dogwood:Si21f9
+Dogwood:Si21f10
+Dogwood:Si21f11
+
+Begin Type:Field
+Blood:i23f0
+Blood:i23f1
+Blood:i23f2
+Physical:i23f3
+Physical:i23f4
+Physical:i23f5
+Blocked:i23f6
+Miss:i23f7
+
+Begin Type:Creature (other)
+Knight:i24f1l1h20m0H20M0s2d2j3w4a2g10e80b*0F
+Dervish:i24f3l1h20m0H20M0s2d2j3w4a2g10e80b*0F
+Traveler:i24f22l1h20m0H20M0s2d2j3w4a2g10e80b*0F
+Elite Guard:i24f23l1h20m0H20M0s2d2j3w4a2g10e80b*0F
+Mage:i24f10l1h20m0H20M0s2d2j3w4a2g10e80b*0F
+Dwarf:i24f12l1h20m0H20M0s2d2j3w4a2g10e80b*0F
+Viking:i24f0l5h50m0H50M0s8d5j4w8a8g40e120b*0F
+Viking:i24f20l5h20m0H70M0s5d8j4w12a4g40e120b*0F
+Brute:i24f13l1h20m0H20M0s2d2j3w4a2g10e80b*0
+Thug:i24f2l1h20m0H20M0s2d2j3w4a2g10e80b*0
+Rogue:i24f25l1h20m0H20M0s2d2j3w4a2g10e80b*0
+Bandit:i24f14l1h20m0H20M0s2d2j3w4a2g10e80b*0
+Woodsman:i24f4l1h20m0H20M0s2d2j3w4a2g10e80b*0
+Swordsman:i24f15l1h20m0H20M0s2d2j3w4a2g10e80b*0
+Archer:i24f24l1h20m0H20M0s2d2j3w4a2g10e80b*0
+Assassin:i24f21l1h20m0H20M0s2d2j3w4a2g10e80b*0
+Ninja:i24f5l1h20m0H20M0s2d2j3w4a2g10e80b*0
+Sorcerer:i24f11l1h20m0H20M0s2d2j3w4a2g10e80b*0
+Goblin:i24f16l1h15m0H15M0s2d2j3w3a2g10e80b*0
+Goblin Warrior:i24f26l2h25m0H25M0s3d3j3w4a3g20e100b*0
+Goblin Marauder:i24f6l3h40m0H40M0s4d4j3w6a4g50e120b*0
+Orc:i24f27l3h35m0H35M0s4d4j3w6a6g30e150b*0
+Orc Enforcer:i24f29l4h60m0H60M0s5d5j4w6a6g50e1800b*0
+Orc Warrior:i24f18l5h80m0H80M0s6d6j5w6a10g100e200b*0
+Orc Guard:i24f17l6h100m0H100M0s7d7j5w10a10g150e240b*0
+Orc Captain:i24f28l8h120m0H120M0s8d8j5w10a12g180e270b*0
+Orc Lord:i24f7l10h200m0H200M0s10d10j8w15a15g200e300b*0
+Elderly Orc:i24f8l1h60m0H60M0s2d2j3w2a2g10e20b*0
+Young Orc:i24f9l1h20m0H20M0s3d2j3w4a1g10e20b*0
+Orc Smith:i24f19l3h60m0H20M0s10d5j3w4a10g100e80b*0
