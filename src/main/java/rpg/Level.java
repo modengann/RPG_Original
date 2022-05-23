@@ -39,6 +39,7 @@ public class Level extends Object {
     
     /**
      * Return the name of this level.
+     * 
      * @return The name of this level.
      */
     public String getName() {
@@ -70,7 +71,7 @@ public class Level extends Object {
     public static Level testLoadFullLevel() {
         try {
             Tile.loadTiles();
-            BufferedReader reader = new BufferedReader(new FileReader(new File("./test.txt")));
+            BufferedReader reader = new BufferedReader(new FileReader(new File("test.txt")));
             return new Level(reader);
         } catch(Exception e) {
             e.printStackTrace();
